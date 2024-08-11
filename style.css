@@ -1,0 +1,59 @@
+body{
+    background-image: url(img1.jpeg) ;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: -5px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-top: -50px;
+    margin-left: 900px;
+    cursor: pointer;
+}
+.navbar {
+  background: #fff;
+  opacity: 0.85;
+  height: 20px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: 5px;
+}
+
+h1{
+    font-family: Jolly Lodger    ;
+    color:white;
+    text-align:  center;
+    margin: 10px ;
+    padding: 215px;
+}
+
+.search{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 33%;
+    justify-content: center;
+
+}
+
+.search input{
+    outline: none;
+    border: 2px black solid;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+
+}
+  
+.submit{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px black solid;
+    height: 30px;
+    width: 70px;
+}
